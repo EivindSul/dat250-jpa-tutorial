@@ -1,5 +1,7 @@
 # Experiment 2 tests
 
+committing to run git actions!
+
 [![Experiment 2 tests](../../actions/workflows/main.yml/badge.svg)](../../actions/workflows/main.yml)
 
 1. Activate the automatic tests on commit under the Actions tab. 
