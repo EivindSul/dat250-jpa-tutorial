@@ -11,13 +11,13 @@ import jakarta.persistence.OneToMany;
 
 @Entity
 public class Family {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
-    private String description;
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Long id;
+	private String description;
 
-    @OneToMany(mappedBy = "family")
-    private final List<Person> members = new ArrayList<>();
+	@OneToMany(mappedBy = "family")
+	private final List<Person> members = new ArrayList<>();
 
 	public Long getId() {
 		return id;
