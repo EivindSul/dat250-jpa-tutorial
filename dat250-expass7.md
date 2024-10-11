@@ -35,7 +35,8 @@ to insert the sql into the container uses a relative file path.
 
 ## Part 2 - Making an image
 
-I made a dockerfile that you can find here: [Dockerfile](https://github.com/EivindSul/dat250-expass2/Dockerfile)
+I made a dockerfile that you can find here: [Dockerfile](https://github.com/EivindSul/dat250-expass2/blob/main/Dockerfile)
+
 It compiles and runs the backend in the expass2 assignment, but does not host the frontend properly.
 I had issues with the build process when working on expass3, so the frontend was built manually.
 
